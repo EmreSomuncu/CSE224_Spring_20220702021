@@ -1,0 +1,19 @@
+Design Name: aludesign
+Run Directory: /openlane/designs/aludesign/runs/RUN_2025.05.01_17.16.13
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/aludesign/runs/RUN_2025.05.01_17.16.13/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/aludesign/runs/RUN_2025.05.01_17.16.13/logs/signoff/37-aludesign.lef.lvs.log
+Number of nets: 329                        |Number of nets: 329                        
+Design is LVS clean.
+----------------------------------------
+
+Antenna Summary:
+Source: /openlane/designs/aludesign/runs/RUN_2025.05.01_17.16.13/logs/signoff/40-arc.log
+Pin violations: 5
+Net violations: 5
