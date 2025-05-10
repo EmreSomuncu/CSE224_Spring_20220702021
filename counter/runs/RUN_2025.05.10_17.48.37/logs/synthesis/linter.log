@@ -1,0 +1,38 @@
+%Warning-IMPLICIT: /openlane/designs/counter/src/counter.v:18:12: Signal definition not found, creating implicitly: 'one_second_enable'
+                                                                : ... Suggested alternative: 'one_second_counter'
+   18 |     assign one_second_enable = (one_second_counter == 99999999) ? 1: 0;
+      |            ^~~~~~~~~~~~~~~~~
+                   ... For warning description see https://verilator.org/warn/IMPLICIT?v=5.018
+                   ... Use "/* verilator lint_off IMPLICIT */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: /openlane/designs/counter/src/counter.v:22:19: Operator ASSIGNDLY expects 5 bits on the Assign RHS, but Assign RHS's CONST '4'h0' generates 4 bits.
+                                                                   : ... note: In instance 'counter'
+   22 |             count <= 4'd0;
+      |                   ^~
+%Warning-WIDTHEXPAND: /openlane/designs/counter/src/counter.v:24:19: Operator ASSIGNDLY expects 5 bits on the Assign RHS, but Assign RHS's CONST '4'h0' generates 4 bits.
+                                                                   : ... note: In instance 'counter'
+   24 |             count <= 4'd0;
+      |                   ^~
+%Warning-WIDTHEXPAND: /openlane/designs/counter/src/counter.v:23:24: Operator EQ expects 5 bits on the RHS, but RHS's CONST '4'h4' generates 4 bits.
+                                                                   : ... note: In instance 'counter'
+   23 |         else if (count == 4'd4)
+      |                        ^~
+%Warning-WIDTHEXPAND: /openlane/designs/counter/src/counter.v:31:9: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '4'h0' generates 4 bits.
+                                                                  : ... note: In instance 'counter'
+   31 |         case (count)
+      |         ^~~~
+%Warning-WIDTHEXPAND: /openlane/designs/counter/src/counter.v:31:9: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '4'h1' generates 4 bits.
+                                                                  : ... note: In instance 'counter'
+   31 |         case (count)
+      |         ^~~~
+%Warning-WIDTHEXPAND: /openlane/designs/counter/src/counter.v:31:9: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '4'h2' generates 4 bits.
+                                                                  : ... note: In instance 'counter'
+   31 |         case (count)
+      |         ^~~~
+%Warning-WIDTHEXPAND: /openlane/designs/counter/src/counter.v:31:9: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '4'h3' generates 4 bits.
+                                                                  : ... note: In instance 'counter'
+   31 |         case (count)
+      |         ^~~~
+%Warning-WIDTHEXPAND: /openlane/designs/counter/src/counter.v:31:9: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '4'h4' generates 4 bits.
+                                                                  : ... note: In instance 'counter'
+   31 |         case (count)
+      |         ^~~~

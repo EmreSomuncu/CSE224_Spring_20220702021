@@ -1,0 +1,1 @@
+lvs {/openlane/designs/counter/runs/RUN_2025.05.10_17.48.37/results/signoff/counter.spice counter} {/openlane/designs/counter/runs/RUN_2025.05.10_17.48.37/tmp/signoff/34-counter.pnl.v counter} /home/vboxuser/.volare/sky130A/libs.tech/netgen/sky130A_setup.tcl /openlane/designs/counter/runs/RUN_2025.05.10_17.48.37/logs/signoff/37-counter.lef.lvs.log -json
